@@ -201,7 +201,7 @@ rm -f = 2>/dev/null || true
 rm -f .codex_patch_smoke .codex_patch_test .codex_patch_test2 2>/dev/null || true
 
 # Clean nested duplicates
-rm -rf home/olumba/ 2>/dev/null || true
+rm -rf home/user/ 2>/dev/null || true
 
 echo "    ✅ Temp files cleaned"
 echo ""
