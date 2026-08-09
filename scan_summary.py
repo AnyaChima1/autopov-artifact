@@ -1,6 +1,6 @@
 import json, sys
 
-path = '/home/olumba/AutoPoV/results/runs/f35794ee-efa3-404d-acc3-cd02b17ea5b8.json'
+path = '/home/user/AutoPoV/results/runs/f35794ee-efa3-404d-acc3-cd02b17ea5b8.json'
 with open(path) as f:
     d = json.load(f)
 

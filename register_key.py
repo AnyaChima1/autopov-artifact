@@ -1,6 +1,6 @@
 import hashlib, json, os
 
-KEY_FILE = "/home/olumba/AutoPoV/data/api_keys.json"
+KEY_FILE = "/home/user/AutoPoV/data/api_keys.json"
 RAW_KEY  = "apov_7ZcziTB7veZ2eUxSvmLdm1NHRlvGD0s9Js5ji6xI8PU"
 KEY_ID   = "user_provided_admin"
 KEY_NAME = "admin-user"
@@ -22,7 +22,7 @@ data[KEY_ID] = {
 with open(KEY_FILE, "w") as f:
     json.dump(data, f, indent=2)
 
-with open("/home/olumba/AutoPoV/register_key_result.txt", "w") as f:
+with open("/home/user/AutoPoV/register_key_result.txt", "w") as f:
     f.write(f"Registered key_id={KEY_ID} hash={key_hash}\n")
 
 print(f"Done. key_id={KEY_ID}, hash={key_hash}")

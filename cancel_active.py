@@ -31,7 +31,7 @@ for scan_id in SCANS:
         results.append(f"[ERR] {scan_id}: {e}")
 
 # Check remaining active scans
-active_dir = "/home/olumba/AutoPoV/results/runs/active"
+active_dir = "/home/user/AutoPoV/results/runs/active"
 try:
     remaining = os.listdir(active_dir)
 except Exception as e:
@@ -41,5 +41,5 @@ output = "\n".join(results) + f"\n\nActive scans remaining: {len(remaining)}\n" 
 print(output)
 
 # Also write to file so we can read it
-with open("/home/olumba/AutoPoV/cancel_results.txt", "w") as f:
+with open("/home/user/AutoPoV/cancel_results.txt", "w") as f:
     f.write(output)

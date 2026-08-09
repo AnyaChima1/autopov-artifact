@@ -8,7 +8,7 @@ API_KEY = "apov_7ZcziTB7veZ2eUxSvmLdm1NHRlvGD0s9Js5ji6xI8PU"
 BASE    = "http://localhost:8000/api"
 HEADERS = {"Authorization": f"Bearer {API_KEY}", "Content-Type": "application/json"}
 
-OUTPUT = "/home/olumba/AutoPoV/start_scan_result.txt"
+OUTPUT = "/home/user/AutoPoV/start_scan_result.txt"
 
 def req(method, path, body=None):
     url = BASE + path

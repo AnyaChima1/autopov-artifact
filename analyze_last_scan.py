@@ -3,7 +3,7 @@
 import json, glob, os, sys
 
 # Find most recent completed scan
-run_dir = '/home/olumba/AutoPoV/results/runs'
+run_dir = '/home/user/AutoPoV/results/runs'
 active_dir = os.path.join(run_dir, 'active')
 
 files = []

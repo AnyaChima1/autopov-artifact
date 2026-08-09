@@ -19,4 +19,4 @@ done
 
 echo ""
 echo "Active scans remaining:"
-ls /home/olumba/AutoPoV/results/runs/active/ 2>/dev/null | wc -l
+ls /home/user/AutoPoV/results/runs/active/ 2>/dev/null | wc -l
